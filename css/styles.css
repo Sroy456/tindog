@@ -1,0 +1,137 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+#title{
+  text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-bold";
+}
+p{
+  color: #8f8f8f;
+}
+.container{
+  padding: 7% 15%;
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #ffff;
+}
+.white-section{
+  background-color: #ffff;
+}
+/* headings */
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* navigation bar */
+.navbar{
+  margin-bottom: 72px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:3.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+/* Download buttons */
+.download-button{
+  margin:5% 3% 5% 0%;
+}
+/* Title images */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* features section */
+#features{
+  padding: 7% 15% ;
+  text-align: center;
+    position: relative;
+}
+.features{
+  padding-bottom: 8%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.hover:hover{
+  color: #ff4c68;
+}
+/* testimonial section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+/* pricing section*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* call to action */
+#cta{
+  text-align: center;
+  padding: 7% 15%;
+}
+/* footer */
+#footer{
+    text-align: center;
+  padding: 7% 15%;
+}
+.padding{
+  margin: 20px 10px;
+}
